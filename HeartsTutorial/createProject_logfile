@@ -1,0 +1,84 @@
+Create new project HeartsLRT (heartslrt)
+
+Generating game files ...
+
+$ /var/tournoi/release/release-current/scripts/dev/newgame.sh heartslrt HeartsLRT /var/tournoi/games/heartslrt emptygame EmptyGame 2>&1
+
+
+Creating new project heartslrt on target directory /var/tournoi/games/heartslrt
+Build smaller images in this img/ directory:
+/var/tournoi/games/heartslrt/img
+/var/tournoi/games/heartslrt/img/game_box.png
+
+
+Make sure the game group is created
+Done!
+
+
+$ /var/tournoi/release/release-current/scripts/dev/newgame_tostudio.sh heartslrt 2>&1
+
+
+
+
+$ echo " New game (heartslrt)" > /tmp/heartslrt-commitlog.txt; /var/tournoi/release/release-current/scripts/studio/commitgame.sh heartslrt yes 2>&1
+
+
+HAL says: committing heartslrt...
+HAL says: this is the first commit, Dave.
+A /var/tournoi/games/heartslrt
+A /var/tournoi/games/heartslrt/gameinfos.inc.php
+A /var/tournoi/games/heartslrt/gameoptions.inc.php
+A /var/tournoi/games/heartslrt/heartslrt.action.php
+A /var/tournoi/games/heartslrt/heartslrt.game.php
+A /var/tournoi/games/heartslrt/heartslrt.view.php
+A /var/tournoi/games/heartslrt/material.inc.php
+A /var/tournoi/games/heartslrt/states.inc.php
+A /var/tournoi/games/heartslrt/stats.inc.php
+A /var/tournoi/games/heartslrt/version.php
+A /var/tournoi/games/heartslrt/heartslrt.css
+A /var/tournoi/games/heartslrt/heartslrt.js
+A /var/tournoi/games/heartslrt/heartslrt_heartslrt.tpl
+A /var/tournoi/games/heartslrt/dbmodel.sql
+A /var/tournoi/games/heartslrt/img
+A (bin) /var/tournoi/games/heartslrt/img/game_box.png
+A (bin) /var/tournoi/games/heartslrt/img/game_box180.png
+A (bin) /var/tournoi/games/heartslrt/img/game_box75.png
+A (bin) /var/tournoi/games/heartslrt/img/game_icon.png
+A (bin) /var/tournoi/games/heartslrt/img/publisher.png
+A /var/tournoi/games/heartslrt/modules
+A /var/tournoi/games/heartslrt/misc
+Adding games/heartslrt
+Adding games/heartslrt/dbmodel.sql
+Adding games/heartslrt/gameinfos.inc.php
+Adding games/heartslrt/gameoptions.inc.php
+Adding games/heartslrt/heartslrt.action.php
+Adding games/heartslrt/heartslrt.css
+Adding games/heartslrt/heartslrt.game.php
+Adding games/heartslrt/heartslrt.js
+Adding games/heartslrt/heartslrt.view.php
+Adding games/heartslrt/heartslrt_heartslrt.tpl
+Adding games/heartslrt/img
+Adding (bin) games/heartslrt/img/game_box.png
+Adding (bin) games/heartslrt/img/game_box180.png
+Adding (bin) games/heartslrt/img/game_box75.png
+Adding (bin) games/heartslrt/img/game_icon.png
+Adding (bin) games/heartslrt/img/publisher.png
+Adding games/heartslrt/material.inc.php
+Adding games/heartslrt/misc
+Adding games/heartslrt/modules
+Adding games/heartslrt/states.inc.php
+Adding games/heartslrt/stats.inc.php
+Adding games/heartslrt/version.php
+Transmitting file data ..................done
+Committing transaction...
+Committed revision 70765.
+HAL says: done.
+
+
+Create game group
+Game name Heartslrt: Group created (954920) (0 members)
+
+Reloading game infos for game heartslrt
+Reloading game options for game heartslrt
+Reloading statistics for game heartslrt
+Done!
